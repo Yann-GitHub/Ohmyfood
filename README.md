@@ -1,7 +1,7 @@
 # Ohmyfood - Découvrez des restaurants d'exception
 
-OpenClassrooms - Parcours "Développeur d'application - JavaScript React".  
-Dynamisez une page web avec des animations CSS.
+> OpenClassrooms - "Développeur d'application - JavaScript React".  
+> Dynamisez une page web avec des animations CSS.
 
 ![Website Mockup](./img/mockup_readme.jpg)
 
