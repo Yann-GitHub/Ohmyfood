@@ -1,6 +1,6 @@
 # Ohmyfood - Découvrez des restaurants d'exception
 
-OpenClassrooms - Parcours "Développeur d'application - JavaScript React".
+OpenClassrooms - Parcours "Développeur d'application - JavaScript React".  
 Dynamisez une page web avec des animations CSS.
 
 ![Website Mockup](./img/mockup_readme.jpg)
@@ -24,11 +24,11 @@ Ohmyfood! est une entreprise de commande de repas en ligne. Notre concept permet
 **Pages de menu**
 - 4 pages contenant chacune le menu d’un restaurant.
 
-**Footer
+**Footer**
 - Le footer est identique sur toutes les pages.
 - Au clic sur “Contact”, un renvoi vers une adresse mail est effectué.
 
-**Header
+**Header**
 - Le header est présent sur toutes les pages.
 - Sur la page d’accueil, il contient le logo du site.
 - Sur les pages de menu, il contient en plus un bouton de retour vers la page d’accueil
@@ -46,17 +46,6 @@ Ohmyfood! est une entreprise de commande de repas en ligne. Notre concept permet
 - À l’arrivée sur la page, les plats devront apparaître progressivement avec un léger décalage dans le temps. Ils pourront soit apparaître un par un, soit par groupe “Entrée”, “Plat” et “Dessert”. Un exemple de l’effet attendu est fourni.
 - Le visiteur peut ajouter les plats qu'il souhaite à sa commande en cliquant dessus. Cela fait apparaître une petite coche à droite du plat Cette coche devra coulisser de la droite vers la gauche. Pour cette première version, l’effet peut apparaître au survol sur desktop au lieu du clic. Si l’intitulé du plat est trop long, il devra être rogné avec des points de suspension. Un exemple de l’effet attendu est fourni.
 
-### Identité graphique
-
-**Polices :**
-- Logo & titres: Shrikhand
-- Texte: Roboto
-
-**Couleurs :**
-- Primaire: #9356DC
-- Secondaire: #FF79DA
-- Tertiaire: #99E2D0
-
 ## Technologies
 
 - Le développement devra se faire en CSS, sans JavaScript.
@@ -72,4 +61,4 @@ Ohmyfood! est une entreprise de commande de repas en ligne. Notre concept permet
 - Mettre en place son environnement Front-End
 - Mettre en place une structure de navigation pour un site web
 
-[Brief complet](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P3+CSS+animations/DW+P3+-+Brief+creatif+-+Ohmyfood!.pdf)
+[Brief complet ici](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P3+CSS+animations/DW+P3+-+Brief+creatif+-+Ohmyfood!.pdf)
