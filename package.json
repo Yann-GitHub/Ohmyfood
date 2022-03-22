@@ -1,0 +1,11 @@
+{
+  "name": "ohmyfood_p3_openclassrooms",
+  "version": "1.0.0",
+  "description": "Découvrez des restaurants d'exception",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/main.scss:./style/style.css --style expanded"
+  },
+  "author": "Yann b.",
+  "license": "ISC"
+}
