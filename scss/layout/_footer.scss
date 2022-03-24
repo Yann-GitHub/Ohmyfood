@@ -1,0 +1,23 @@
+.footer {
+    background-color: $color-footer;
+    padding: 20px 0 20px 20px;
+    &__title {
+        color: white;
+        font-family: 'Shrikhand', cursive;
+        font-size: 1rem;;
+    }
+    &__container {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        .duo {
+            display: flex;
+        }
+        a {
+            color: white;
+            padding: 5px 0;
+            font-weight: 200;
+        }
+    }
+}

@@ -1,0 +1,110 @@
+.explore {
+    width: 100%;
+    background-color: $color-grey;
+    &__location {
+        background-color: darken($color-grey, 10);
+        font-size: 1rem;
+        text-align: center;
+        padding: 10px 0;
+        box-shadow: 0px 4px 3px -2px darken($color-grey, 20) inset;
+        display: flex;
+        justify-content: center;
+        i {
+            padding: 0 10px;
+        }
+    }
+    &__content {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 30px;
+        h2 {
+            font-size: 1.5rem;
+            padding: 10px 0;
+        }
+        p {
+            font-size: 1rem;
+            font-weight: 300;
+            padding: 10px 0;
+        }
+    }
+}
+
+
+.process {
+    background-color: white;
+    margin-top: 30px;
+    &__title {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    &__command {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 97%;
+        background-color: $color-grey;
+        margin-bottom: 10px;
+        height: 40px;
+        border-radius: 20px;
+        .number {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: 0;
+            height: 10px;
+            width: 10px;
+            background-color: $color-primary;
+            color: white;
+            border-radius: 50%;
+            padding: 10px;
+        }
+    }
+}
+
+.main {
+    background-color: $color-grey;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__title {
+        font-size: 1.5rem;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border: 1px solid orangered;
+    &__image {
+        height: 70%;
+        width: inherit;
+        border: 1px solid blue;
+        img {
+            object-fit: fill;
+            width: inherit;
+        }
+    }
+    &__content {
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        border: 1px solid green;
+        h3 {
+            font-size: 1.2rem;
+        }
+        p {
+            font-weight: 300;
+        }
+    }
+}
