@@ -2,6 +2,7 @@
     width: 100%;
     background-color: $color-grey;
     &__location {
+        height: 50px;
         background-color: darken($color-grey, 10);
         font-size: 1rem;
         text-align: center;
@@ -9,8 +10,13 @@
         box-shadow: 0px 4px 3px -2px darken($color-grey, 20) inset;
         display: flex;
         justify-content: center;
+        align-items: center;
         i {
             padding: 0 10px;
+            height: auto;
+        }
+        span {
+            height: auto;
         }
     }
     &__content {
@@ -19,11 +25,12 @@
         margin-top: 30px;
         h2 {
             font-size: 1.5rem;
-            padding: 10px 0;
+            font-weight: 500;
+            padding: 10px;
         }
         p {
-            font-size: 1rem;
-            font-weight: 300;
+            font-size: 1.1rem;
+            font-weight: 200;
             padding: 10px 0;
         }
     }
@@ -32,34 +39,42 @@
 
 .process {
     background-color: white;
-    margin-top: 30px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
     &__title {
         font-size: 1.5rem;
-        margin-bottom: 20px;
+        font-weight: 500;
+        margin-bottom: 30px;
     }
     &__command {
         position: relative;
         display: flex;
         align-items: center;
-        justify-content: center;
-        width: 97%;
+        justify-content: space-evenly;
         background-color: $color-grey;
-        margin-bottom: 10px;
-        height: 40px;
-        border-radius: 20px;
+        margin-bottom: 25px;
+        height: 75px;
+        border-radius: 25px;
         @include shadow; 
         .number {
+            font-weight: 400;
+            font-size: 0.9rem;
             display: flex;
             justify-content: center;
             align-items: center;
             position: absolute;
-            left: 0;
-            height: 10px;
-            width: 10px;
+            left: -10px;
+            height: 25px;
+            width: 25px;
             background-color: $color-primary;
             color: white;
             border-radius: 50%;
             padding: 10px;
+        }
+        i {
+            opacity: 0.5;
+            font-size: 1.2rem;
         }
     }
 }
@@ -67,11 +82,13 @@
 .main {
     background-color: $color-grey;
     width: 100%;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     &__title {
         font-size: 1.5rem;
+        font-weight: 500;
         padding-top: 30px;
         padding-bottom: 15px;
     }
