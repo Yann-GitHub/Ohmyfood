@@ -416,6 +416,12 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 40px;
   border-radius: 20px;
   background: linear-gradient(175deg, #FF79DA, #9356DC);
+  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background: linear-gradient(175deg, #ff93e1, #a16be0);
 }
 
 .explore {
@@ -467,6 +473,7 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 10px;
   height: 40px;
   border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .process__command .number {
   display: flex;
@@ -496,22 +503,29 @@ h1, h2, h3, h4, h5 {
 }
 
 .card {
-  height: 300px;
+  height: 200px;
   width: 300px;
   border-radius: 10px;
+  position: relative;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
-  border: 1px solid orangered;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card__new {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  font-size: 0.8rem;
+  background-color: #99E2D0;
+  color: #1b6150;
 }
 .card__image {
   height: 70%;
   width: inherit;
-  border: 1px solid blue;
-}
-.card__image img {
-  object-fit: fill;
-  width: inherit;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
 }
 .card__content {
   height: 30%;
@@ -519,7 +533,6 @@ h1, h2, h3, h4, h5 {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  border: 1px solid green;
 }
 .card__content h3 {
   font-size: 1.2rem;

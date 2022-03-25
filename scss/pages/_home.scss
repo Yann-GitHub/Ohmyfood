@@ -47,6 +47,7 @@
         margin-bottom: 10px;
         height: 40px;
         border-radius: 20px;
+        @include shadow; 
         .number {
             display: flex;
             justify-content: center;
@@ -77,21 +78,30 @@
 }
 
 .card {
-    height: 300px;
+    height: 200px;
     width: 300px;
     border-radius: 10px;
+    position: relative;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    border: 1px solid orangered;
+    //border: 1px solid orangered;
+    @include shadow;
+    &__new {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding: 5px;
+        font-size: 0.8rem;
+        background-color: $color-tertiary;
+        color: darken($color-tertiary , 50);
+    }
     &__image {
         height: 70%;
         width: inherit;
-        border: 1px solid blue;
-        img {
-            object-fit: fill;
-            width: inherit;
-        }
+        //border: 1px solid blue;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
     }
     &__content {
         height: 30%;
@@ -99,7 +109,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 10px;
-        border: 1px solid green;
+        //border: 1px solid green;
         h3 {
             font-size: 1.2rem;
         }

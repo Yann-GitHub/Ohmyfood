@@ -6,4 +6,10 @@
     margin-bottom: 40px;
     border-radius: 20px;
     background: linear-gradient(175deg, $color-secondary, $color-primary);
+    transition: 0.3s;
+    @include shadow;
+    &:hover {
+        @include shadow-hover;
+        background: linear-gradient(175deg, lighten($color-secondary, 5%), lighten($color-primary, 5%));
+    }
 }
