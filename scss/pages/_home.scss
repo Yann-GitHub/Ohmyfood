@@ -79,6 +79,7 @@
         }
         &:hover {
             background-color: lighten($color-primary, 30%);
+            @include shadow-hover;
             i {
                 color: $color-primary;
                 opacity: 1;
@@ -86,18 +87,6 @@
         }
     }
 }
-
-/*.process-link {
-    &:hover {
-        i {
-            color: $color-primary;
-            opacity: 1;
-        }
-        .process__command {
-            background-color: lighten($color-primary, 30%);
-        }
-    }
-}*/
 
 
 

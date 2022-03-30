@@ -517,23 +517,13 @@ h1, h2, h3, h4, h5 {
 }
 .process__command:hover {
   background-color: #e4d5f6;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .process__command:hover i {
   color: #9356DC;
   opacity: 1;
 }
 
-/*.process-link {
-    &:hover {
-        i {
-            color: $color-primary;
-            opacity: 1;
-        }
-        .process__command {
-            background-color: lighten($color-primary, 30%);
-        }
-    }
-}*/
 .main-wrapper {
   width: 90%;
   margin: 0 auto;
