@@ -387,12 +387,13 @@ h1, h2, h3, h4, h5 {
 
 .footer {
   background-color: #353535;
-  padding: 20px 0 20px 20px;
+  padding: 30px 20px 35px 20px;
 }
 .footer__title {
   color: white;
   font-family: "Shrikhand", cursive;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
 }
 .footer__container {
   color: white;
@@ -402,11 +403,20 @@ h1, h2, h3, h4, h5 {
 }
 .footer__container .duo {
   display: flex;
+  align-items: baseline;
 }
 .footer__container a {
   color: white;
   padding: 5px 0;
-  font-weight: 200;
+  font-weight: 300;
+}
+.footer__container a i {
+  padding-right: 13px;
+  font-size: 0.8rem;
+}
+.footer__container a .hand {
+  font-size: 0.7rem;
+  padding-right: 11px;
 }
 
 .btn {
@@ -506,6 +516,12 @@ h1, h2, h3, h4, h5 {
   font-size: 1.2rem;
 }
 
+.main-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 45px;
+}
+
 .main {
   background-color: #f6f6f6;
   width: 100%;
@@ -517,28 +533,33 @@ h1, h2, h3, h4, h5 {
 .main__title {
   font-size: 1.5rem;
   font-weight: 500;
-  padding-top: 30px;
-  padding-bottom: 15px;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 .card {
-  height: 200px;
-  width: 300px;
+  height: 250px;
+  width: 100%;
   border-radius: 10px;
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .card__new {
+  width: 80px;
+  height: 30px;
+  font-size: 0.85rem;
+  font-weight: 500;
   position: absolute;
   top: 10px;
   right: 10px;
-  padding: 5px;
-  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #99E2D0;
-  color: #1b6150;
+  color: #278870;
 }
 .card__image {
   height: 70%;
@@ -554,10 +575,16 @@ h1, h2, h3, h4, h5 {
   padding: 10px;
 }
 .card__content h3 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 .card__content p {
-  font-weight: 300;
+  font-weight: 200;
+  font-size: 1.1rem;
+  padding-top: 5px;
+}
+.card__content i {
+  font-size: 1.3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

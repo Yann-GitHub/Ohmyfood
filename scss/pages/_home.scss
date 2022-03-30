@@ -79,6 +79,12 @@
     }
 }
 
+.main-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 45px;
+}
+
 .main {
     background-color: $color-grey;
     width: 100%;
@@ -89,34 +95,37 @@
     &__title {
         font-size: 1.5rem;
         font-weight: 500;
-        padding-top: 30px;
-        padding-bottom: 15px;
+        margin-top: 60px;
+        margin-bottom: 30px;
     }
 }
 
 .card {
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 100%;
     border-radius: 10px;
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
-    //border: 1px solid orangered;
+    margin-bottom: 18px;
     @include shadow;
     &__new {
+        width: 80px;
+        height: 30px;
+        font-size: 0.85rem;
+        font-weight: 500;
         position: absolute;
         top: 10px;
         right: 10px;
-        padding: 5px;
-        font-size: 0.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: $color-tertiary;
-        color: darken($color-tertiary , 50);
+        color: darken($color-tertiary , 40);
     }
     &__image {
         height: 70%;
         width: inherit;
-        //border: 1px solid blue;
         border-radius: 10px 10px 0 0;
         object-fit: cover;
     }
@@ -126,12 +135,17 @@
         align-items: center;
         justify-content: space-between;
         padding: 10px;
-        //border: 1px solid green;
         h3 {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
+            font-weight: 500;
         }
         p {
-            font-weight: 300;
+            font-weight: 200;
+            font-size: 1.1rem;
+            padding-top: 5px;
+        }
+        i {
+            font-size: 1.3rem;
         }
     }
 }
