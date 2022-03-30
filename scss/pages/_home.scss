@@ -42,6 +42,7 @@
     width: 90%;
     margin: 0 auto;
     margin-top: 50px;
+    
     &__title {
         font-size: 1.5rem;
         font-weight: 500;
@@ -56,7 +57,7 @@
         margin-bottom: 25px;
         height: 75px;
         border-radius: 25px;
-        @include shadow; 
+        @include shadow;
         .number {
             font-weight: 400;
             font-size: 0.9rem;
@@ -76,8 +77,29 @@
             opacity: 0.5;
             font-size: 1.2rem;
         }
+        &:hover {
+            background-color: lighten($color-primary, 30%);
+            i {
+                color: $color-primary;
+                opacity: 1;
+            }
+        }
     }
 }
+
+/*.process-link {
+    &:hover {
+        i {
+            color: $color-primary;
+            opacity: 1;
+        }
+        .process__command {
+            background-color: lighten($color-primary, 30%);
+        }
+    }
+}*/
+
+
 
 .main-wrapper {
     width: 90%;
@@ -121,7 +143,7 @@
         justify-content: center;
         align-items: center;
         background-color: $color-tertiary;
-        color: darken($color-tertiary , 40);
+        color: darken($color-tertiary , 40%);
     }
     &__image {
         height: 70%;
