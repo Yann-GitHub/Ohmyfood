@@ -155,8 +155,22 @@
             font-size: 1.1rem;
             padding-top: 5px;
         }
-        i {
+        .heart {
             font-size: 1.3rem;
+            //background: linear-gradient(175deg, $color-secondary, $color-primary);
+	        //-webkit-background-clip: text;
+	        //color: transparent;
+        }
+    }
+}
+
+.card-link {
+    &:hover {
+        .card {
+            @include shadow-hover;
+        }
+        .card__content {
+            background-color: lighten($color-primary, 30%);
         }
     }
 }

@@ -1,0 +1,15 @@
+
+
+/*.heart {
+    //background: none;
+    transition: color 1s ease;
+    &:hover {
+        background: linear-gradient(175deg, $color-secondary, $color-primary);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    } 
+}*/
+
+//https://compat.spec.whatwg.org/#example-webkit-background-clip
+//https://stackoverflow.com/questions/56916493/how-do-i-use-gradients-with-font-awesome-icons
