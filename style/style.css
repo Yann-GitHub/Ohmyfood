@@ -376,6 +376,7 @@ h1, h2, h3, h4, h5 {
 .header-home {
   width: 100%;
   height: 60px;
+  background-color: white;
 }
 .header-home__logo {
   font-size: 2rem;
@@ -388,6 +389,7 @@ h1, h2, h3, h4, h5 {
 .header-pages {
   width: 100%;
   height: 60px;
+  background-color: white;
   position: relative;
 }
 .header-pages__logo {
@@ -636,6 +638,10 @@ h1, h2, h3, h4, h5 {
   background-color: #e4d5f6;
 }
 
+body {
+  background-color: #f6f6f6;
+}
+
 .top-image {
   width: 100%;
   height: 260px;
@@ -644,6 +650,11 @@ h1, h2, h3, h4, h5 {
   height: 100%;
   width: inherit;
   object-fit: cover;
+}
+
+.pages-wrapper {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .main-pages {
@@ -656,9 +667,8 @@ h1, h2, h3, h4, h5 {
   font-size: 1rem;
   font-style: italic;
   margin: 0;
-  padding: 1rem 0;
+  padding: 2.4rem 0 0 0;
   text-align: center;
-  border-radius: 30px 30px 0 0;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -666,7 +676,11 @@ h1, h2, h3, h4, h5 {
 .main-pages__title h2 {
   font-family: "Shrikhand", cursive;
   font-size: 1.7rem;
-  font-weight: l;
+  font-weight: lighter;
+}
+.main-pages__title .heart {
+  font-size: 1.3rem;
+  padding-right: 20px;
 }
 
 .food {
@@ -674,10 +688,10 @@ h1, h2, h3, h4, h5 {
   margin: 0 auto;
 }
 .food__title {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-  font-size: 1.1rem;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  padding-bottom: 7px;
+  font-size: 1rem;
   opacity: 1;
   font-weight: 300;
   position: relative;
@@ -687,11 +701,12 @@ h1, h2, h3, h4, h5 {
   border-radius: 15px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .food__content h4 {
-  font-weight: 500;
-  margin-bottom: 5px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
 }
 .food__content div {
   display: flex;
@@ -699,7 +714,7 @@ h1, h2, h3, h4, h5 {
   align-items: baseline;
 }
 .food__content p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 .food__content .price {
@@ -713,7 +728,7 @@ h1, h2, h3, h4, h5 {
   position: absolute;
   background-color: #99E2D0;
   width: 40px;
-  height: 2px;
+  height: 3px;
   bottom: 0;
 }
 
@@ -724,7 +739,9 @@ h1, h2, h3, h4, h5 {
 }
 .order .btn-pages {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
