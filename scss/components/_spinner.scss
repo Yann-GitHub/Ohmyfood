@@ -1,0 +1,46 @@
+@keyframes spinner {
+    0% {
+      transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    }
+    100% {
+      transform: translate3d(-50%, -50%, 0) rotate(720deg);
+    }
+  }
+
+  @keyframes container {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
+
+  .spin-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: rgba($color: #FFFFFF, $alpha: 0.6);
+    transform: translateX(8000px);
+    animation: container 3s linear;
+  }
+
+  .spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 400;
+    animation: spinner 3s linear;
+    border: solid 5px #cfd0d1;
+    border-bottom-color: $color-primary;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    transform: translate3d(-50%, -50%, 0);
+    //margin: 0 auto;
+    //margin-top: -50px;
+    //margin-left: -50px;
+  }
