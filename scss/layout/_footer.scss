@@ -1,7 +1,13 @@
 .footer {
     background-color: $color-footer;
-    //padding: 30px 20px 35px 20px;
     padding-top: 30px;
+    a {
+        color: white;
+        font-weight: 300;
+    }
+    p {
+        padding: 5px 0;
+    }
     &__title {
         color: white;
         font-family: 'Shrikhand', cursive;
@@ -17,11 +23,6 @@
         .duo {
             display: flex;
             align-items: baseline;
-        }
-        a {
-            color: white;
-            padding: 5px 0;
-            font-weight: 300;
             i {
                 padding-right: 13px;
                 font-size: 0.8rem;
@@ -30,7 +31,7 @@
                 font-size: 0.7rem;
                 padding-right: 11px;
             }
-        }
+        }   
     }
 }
 

@@ -1,15 +1,26 @@
 
+//SVG heart animation
 
-/*.heart {
-    //background: none;
-    transition: color 1s ease;
-    &:hover {
-        background: linear-gradient(175deg, $color-secondary, $color-primary);
-        -webkit-background-clip: text;
-        color: transparent;
-        font-weight: bold;
-    } 
-}   */
-
-//https://compat.spec.whatwg.org/#example-webkit-background-clip
-//https://stackoverflow.com/questions/56916493/how-do-i-use-gradients-with-font-awesome-icons
+.heart-wrapper {
+    width: 45px;
+    height: 25px;
+    position: relative;
+    .heart-normal {
+        width: 23px;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+    }
+    .heart-solid {
+        width: 23px;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        fill: url(#linear);
+        opacity: 0;
+        transition: opacity 500ms;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
