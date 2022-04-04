@@ -10,6 +10,7 @@
     transition: 0.3s;
     @include shadow;
     &:hover {
+        cursor: pointer;
         @include shadow-hover;
         background: linear-gradient(175deg, lighten($color-secondary, 5%), lighten($color-primary, 5%));
     }

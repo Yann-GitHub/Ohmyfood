@@ -79,6 +79,7 @@
             font-size: 1.2rem;
         }
         &:hover {
+            cursor: pointer;
             background-color: lighten($color-primary, 30%);
             @include shadow-hover;
             i {
@@ -164,9 +165,6 @@
     &:hover {
         .card {
             @include shadow-hover;
-        }
-        .card__content {
-            background-color: lighten($color-primary, 30%);
         }
     }
 }

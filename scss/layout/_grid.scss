@@ -1,6 +1,6 @@
 
 
-
+//Breakpoint home page - process section
 @media only screen and (min-width: 992px) {
     .process {
         display: grid;
@@ -18,7 +18,7 @@
   }
 
 
-
+//Breakpoint home page - main section
 @media only screen and (min-width: 992px) {
     .main-wrapper {
         display: grid;
@@ -33,13 +33,14 @@
 }
 
 
-//breakpoint restaurants pages
+//Breakpoint restaurants pages
 @media only screen and (min-width: 992px) {
     .pages-wrapper {
         display: grid;
         grid-template-rows: auto 1fr auto;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 20px;
+        height: 45vh;
     }
     .starter {
         grid-row: 2 / 3;
