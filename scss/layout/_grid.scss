@@ -38,32 +38,29 @@
     .pages-wrapper {
         display: grid;
         grid-template-rows: auto 1fr auto;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 32% 32% 32%;
         column-gap: 20px;
         height: 45vh;
-    }
-    .starter {
-        grid-row: 2 / 3;
-        grid-column: 1 / span 1;
-    }
-    .main-course {
-        grid-row: 2 / 3;
-        grid-column: 2 / span 1;
-        //white-space: nowrap;
-        //overflow: hidden;
-        //text-overflow: ellipsis;
-    }
-    .dessert {
-        grid-row: 2 / 3;
-        grid-column: 3 / span 1;
-    }
-    .main-pages__title {
-        grid-row: 1 / 2;
-        grid-column: 1 / span 3;
-    }
-    .order {
-        grid-row: 3 / span 1;
-        grid-column: 1 / span 3;
+        .main-pages__title {
+            grid-column: 1 / span 3;
+            grid-row: 1 / span 1;
+        }
+        .starter {
+            grid-column: 1 / span 1;
+            grid-row: 2 / span 1;
+        }
+        .main-course {
+            grid-column: 2 / span 1;
+            grid-row: 2 / span 1;
+        }
+        .dessert {
+            grid-column: 3 / span 1;
+            grid-row: 2 / span 1;
+        }
+        .order {
+            grid-column: 1 / span 3;
+            grid-row: 3 / span 1;
+        }
     }
 }
   
