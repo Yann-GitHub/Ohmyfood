@@ -572,6 +572,50 @@ h1, h2, h3, h4, h5 {
   transition: transform 500ms;
 }
 
+.food__content {
+  animation: loading-boxes 1000ms backwards;
+}
+.food__content--1 {
+  animation-delay: 100ms;
+}
+.food__content--2 {
+  animation-delay: 200ms;
+}
+.food__content--3 {
+  animation-delay: 300ms;
+}
+.food__content--4 {
+  animation-delay: 400ms;
+}
+.food__content--5 {
+  animation-delay: 500ms;
+}
+.food__content--6 {
+  animation-delay: 600ms;
+}
+.food__content--7 {
+  animation-delay: 700ms;
+}
+.food__content--8 {
+  animation-delay: 800ms;
+}
+.food__content--9 {
+  animation-delay: 900ms;
+}
+.food__content--10 {
+  animation-delay: 1000ms;
+}
+
+@keyframes loading-boxes {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 .btn {
   color: white;
   font-size: 1rem;

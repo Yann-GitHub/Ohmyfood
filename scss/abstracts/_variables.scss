@@ -1,5 +1,17 @@
+
+/////////////  Color set   ////////////
+
 $color-primary: #9356DC;
 $color-secondary: #FF79DA;
 $color-tertiary: #99E2D0;
 $color-grey: #f6f6f6;
 $color-footer: #353535;
+
+
+////////// Variables animation loading boxes restaurant-pages  ///////////
+
+$num-boxes: 10;
+$anim-duration: 1000ms;
+//$anim-delay: $anim-duration / $num-boxes;
+//math.div($anim-duration, $num-boxes);
+$anim-delay: 100ms;
