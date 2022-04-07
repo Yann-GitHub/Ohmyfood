@@ -639,10 +639,10 @@ h1, h2, h3, h4, h5 {
 
 @keyframes spinner {
   0% {
-    transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-    transform: translate3d(-50%, -50%, 0) rotate(720deg);
+    transform: rotate(720deg);
   }
 }
 @keyframes container {
@@ -674,9 +674,10 @@ h1, h2, h3, h4, h5 {
   border: solid 5px #cfd0d1;
   border-bottom-color: #9356DC;
   border-radius: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
   height: 100px;
   width: 100px;
-  transform: translate3d(-50%, -50%, 0);
 }
 
 .explore {

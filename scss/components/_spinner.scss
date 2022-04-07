@@ -1,9 +1,9 @@
 @keyframes spinner {
     0% {
-      transform: translate3d(-50%, -50%, 0) rotate(0deg);
+      transform: rotate(0deg);
     }
     100% {
-      transform: translate3d(-50%, -50%, 0) rotate(720deg);
+      transform: rotate(720deg);
     }
   }
 
@@ -16,6 +16,8 @@
     }
   }
 
+
+  //Une fois l'animation du spinner terminée, l'élément est déplacé de 8000px sur la droite
   .spin-container {
     position: fixed;
     top: 0;
@@ -37,10 +39,8 @@
     border: solid 5px #cfd0d1;
     border-bottom-color: $color-primary;
     border-radius: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
     height: 100px;
     width: 100px;
-    transform: translate3d(-50%, -50%, 0);
-    //margin: 0 auto;
-    //margin-top: -50px;
-    //margin-left: -50px;
   }
