@@ -11,7 +11,5 @@ $color-footer: #353535;
 ////////// Variables animation loading boxes restaurant-pages  ///////////
 
 $num-boxes: 10;
-$anim-duration: 1000ms;
-//$anim-delay: $anim-duration / $num-boxes;
-//math.div($anim-duration, $num-boxes);
-$anim-delay: 100ms;
+$anim-duration: 800ms;
+$anim-delay: 80ms;

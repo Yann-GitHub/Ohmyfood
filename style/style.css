@@ -536,11 +536,6 @@ h1, h2, h3, h4, h5 {
   opacity: 1;
 }
 
-.food__content {
-  /* overflow: hidden;
-  display: flex;
-  justify-content: space-between; */
-}
 .food__content:hover > .right {
   margin-right: 0;
 }
@@ -576,37 +571,37 @@ h1, h2, h3, h4, h5 {
 }
 
 .food__content {
-  animation: loading-boxes 1000ms backwards;
+  animation: loading-boxes 800ms backwards;
 }
 .food__content--1 {
-  animation-delay: 100ms;
+  animation-delay: 80ms;
 }
 .food__content--2 {
-  animation-delay: 200ms;
+  animation-delay: 160ms;
 }
 .food__content--3 {
-  animation-delay: 300ms;
+  animation-delay: 240ms;
 }
 .food__content--4 {
-  animation-delay: 400ms;
+  animation-delay: 320ms;
 }
 .food__content--5 {
-  animation-delay: 500ms;
+  animation-delay: 400ms;
 }
 .food__content--6 {
-  animation-delay: 600ms;
+  animation-delay: 480ms;
 }
 .food__content--7 {
-  animation-delay: 700ms;
+  animation-delay: 560ms;
 }
 .food__content--8 {
-  animation-delay: 800ms;
+  animation-delay: 640ms;
 }
 .food__content--9 {
-  animation-delay: 900ms;
+  animation-delay: 720ms;
 }
 .food__content--10 {
-  animation-delay: 1000ms;
+  animation-delay: 800ms;
 }
 
 @keyframes loading-boxes {

@@ -2,28 +2,25 @@ html {
     scroll-behavior: smooth;
     font-size: 16px;
     box-sizing: border-box;
-    //min-height: 100%;
-  }
+}
 
 * { 
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-  }
+}
 
 body {
     min-width: 300px;
     margin: 0 auto;
     padding: 0;
     border: 0;
-    //min-height: 100%;
-    
-  }
+}
 
 ol, ul {
     list-style: none;
-  }
+}
 
-  a {
+a {
     color: black;
     text-decoration: none;
 }
